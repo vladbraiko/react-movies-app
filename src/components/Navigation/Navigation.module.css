@@ -1,0 +1,15 @@
+.nav_list {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+.nav_item {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 24px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.active {
+  color: rgb(7, 129, 160);
+}

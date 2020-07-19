@@ -1,0 +1,1 @@
+{"version":3,"sources":["Reviews.module.css"],"names":[],"mappings":"AAAA,qBACE,eAAgB,CAChB,gBACF,CACA,4BACE,cAAe,CACf,yBACF,CACA,4BACE,cACF","file":"8.6b9fcc24.chunk.css","sourcesContent":[".list {\n  list-style: none;\n  max-width: 1600px;\n}\n.review_name {\n  font-size: 24px;\n  text-decoration: underline;\n}\n.review_text {\n  font-size: 20px;\n}\n"]}

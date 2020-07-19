@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.list_item {
+  margin-left: 20px;
+  width: 300px;
+  height: 550px;
+}
+.photo {
+  width: 300px;
+  height: 450px;
+  display: block;
+}
+.name {
+  font-size: 24px;
+  margin: 0;
+}

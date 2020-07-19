@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 30px 40px 0;
+}
+.button {
+  font-size: 18px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  margin-left: 30px;
+  padding: 5px;
+}
+.movie_title {
+  font-size: 24px;
+}
+.movie_score {
+  font-size: 18px;
+}
+.movie_overview_title,
+.info_title,
+.movie_genres_title {
+  font-size: 18px;
+}
+.movie_overview,
+.movie_genres {
+  font-size: 18px;
+}
+.cast,
+.review {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.cast_narrow {
+  font-size: 18px;
+}
+.container2 {
+  width: 1453px;
+  margin: 15px 35px;
+}
+.info_title {
+  font-size: 18px;
+}
