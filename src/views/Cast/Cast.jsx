@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import T from 'prop-types';
-import * as API from '../../services/Api';
-import style from './Cast.module.css';
+import React, { Component } from "react";
+import T from "prop-types";
+import * as API from "../../services/Api";
+import style from "./Cast.module.css";
 
 class Cast extends Component {
   static propTypes = {
@@ -19,7 +19,7 @@ class Cast extends Component {
   componentDidMount() {
     const { match } = this.props;
     const { movieId } = match.params;
-    API.getCast(movieId).then(res => this.setState({ casr: res.data.cast }));
+    API.getCast(movieId).then((res) => this.setState({ cast: res.data.cast }));
   }
 
   render() {
@@ -28,7 +28,7 @@ class Cast extends Component {
     return (
       <div>
         <ul className={style.list}>
-          {cast.map(el => (
+          {cast.map((el) => (
             <li key={el.id} className={style.list_item}>
               <img
                 className={style.photo}
